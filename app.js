@@ -1,6 +1,8 @@
 var http   = require('http');
 var handle = require('./handle');
 var events = require('events');
+var hello  = require('console-log-hello-world');
+
 var emiter = new events.EventEmitter();
 
 

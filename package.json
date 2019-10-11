@@ -1,0 +1,23 @@
+{
+  "name": "node-son",
+  "version": "1.0.0",
+  "description": "school of net",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "school",
+    "of",
+    "net",
+    "init",
+    "node.js",
+    "nodejs"
+  ],
+  "author": "Angelo R Pinto",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "console-log-hello-world": "^1.0.3"
+  }
+}
