@@ -20,3 +20,11 @@ var server = http.createServer(handle);
 server.listen(3000, function(){
     console.log('Server listening at port 3000');
 })
+
+
+
+// Removendo dependecia de pacotes extenos
+// npm uninstall console-log-hello-world
+
+// Atualizando pacotes extenos
+// npm update console-log-hello-world

@@ -16,8 +16,8 @@
   ],
   "author": "Angelo R Pinto",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "console-log-hello-world": "^1.0.3"
-  }
+  },
+  "devDependencies": {}
 }
