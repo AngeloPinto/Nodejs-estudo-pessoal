@@ -1,6 +1,18 @@
+var querystring = require('querystring');
+
 function handle(request, response) {
     response.writeHead(200, {
         'Content-Type': 'text/html'
+    });
+
+    var body = '';
+    request.on('data', function(valor){
+        body += valor.toString();
+    });
+    
+    request.on('end', function() {
+        var decode = querystring.parse(body);
+        console.log(decode);
     });
 
     response.write('<!DOCTYP "html">');
