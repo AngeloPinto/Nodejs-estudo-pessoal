@@ -1,14 +1,11 @@
-console.log('Hello World');
+var http = require('http');
 
-var a = 2;
-var b = 2;
-var c = a + b;
+function handle(request, response) {
+    response.end('Hello from http module');
+}
 
-console.log('c:', c);
+var server = http.createServer(handle);
 
-
-var a = '3';
-var b = 3;
-var c = a + b;
-
-console.log('c:', c);
+server.listen(3000, function(){
+    console.log('Server is listening at port 3000');
+});
